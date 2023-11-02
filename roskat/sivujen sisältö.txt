@@ -1,0 +1,97 @@
+index
+kuka
+opinnot
+osaaminen
+työkokemus
+
+--kuka---
+Olen vuonna 2010 valmistunut sairaanhoitajaksi/ensihoitajaksi (amk) ja työskennellyt sairaanhoitajana kardiologisilla osastoilla erikoissairaanhoidossa yli 10 vuoden ajan. Vuonna 2021 aloin opiskella työni ohessa tavoitteenani päästä IT-alan töihin.
+
+Pitkä työkokemus sairaalamaailmasta on opettanut kiireensietoa, vuorovaikutustaitoa, tarkkuutta ja ongelmanratkaisua. Muun muassa näitä ominaisuuksiani olisi hienoa päästä hiomaan ja uudelleen käyttämään IT-puolelle. Tietotekniikan suhteen nokka on keltainen kuin Naantalin aurinko, mutta toisaalta innokkuutta ja kykyä uuden oppimiseen löytyy hurja määrä.
+
+Mitä sitten haluaisin päästä tekemään? IT-ala näyttäytyy minulle mahdollisuuksia täynnä olevana metsänä, jonka kaikki polut ovat avoinna. Opiskelu- ja työhistoriani toimii eräänlaisena kompassina: Ensimmäinen ammattini paino- ja viestintätekniikasta osoittaa sinne, missä visuaalisuudella on painoarvoa. Sairaanhoitajana tunnen sotemaailmaan ja tiedän kuinka paljon siellä olisi työsarkaa juurikin IT-asioissa. Hyvinvointianalyytikon opinnot avasivat taas mielenkiinnon datan kanssa työskentelyyn. 
+
+Tämänhetkisessä tieto- ja viestintätekniikan perustutkinnon opinnoissa perustehtävät on suoritettuna, mutta en ole vielä valinnut suuntautumistani. Tällä hetkellä opiskelen ohjelmoinnin kokonaisuutta tavoitteena saada se maaliskuussa -24 valmiiksi. Ohjelmoinnin jälkeen olisi mahdollista syventää ohjelmistokehittäjänä  toimimista tai suuntautua esimerkiksi kyberturvallisuuteen, sulautettuihin järjestelmiin tai IT-tukihenkilön työhön. Työharjoittelumahdollisuudella toivoisinkin saavani suuntaviivoja sille, mihin opinnoissani kannattaisi suuntautua. 
+
+---opinnot---
+
+Tieto- ja viestintätekniikan perustutkinto
+Etelä-Savon ammattiopisto
+3/2023 -
+
+Hyvinvointiteknologia YAMK
+Satakunnan ammattikorkeakoulu
+9/2022 -
+
+Experts in Medical Computing
+Itä-Suomen yliopisto / Savonia AMK
+2021-2022
+Täydennyskoulutus 48/60 op suoritettu
+
+Ensihoitaja/sairaanhoitaja (AMK)
+Pirkanmaan ammattikorkeakoulu
+2006-2010
+
+Painoviestinnän perustutkinto / YO
+Tampereen ammattiopisto
+
+Irtokurssit
+4/2023 Savonia amk: Big Datan perusteet sekä visualisointi Excelillä ja Power BI:llä
+3/2023 FITech 101: Johdatus ohjelmointiin 2op
+2/2022 Karelia amk: Ohjelmistorobotiikan mahdollisuudet 2 op
+
+EMC:n sisältö
+Johdatus Python ohjelmointiin
+Harjoittelu
+R-kieli
+Business Intelligence (BI)
+Client-Oriented Social and Health Care Services EMC
+University Study Skills
+
+Hyvinvointiteknologia sisältö
+Robotiikka hyvinvointialalla
+Älykkäiden teknologioiden ja palveluiden tuotekehitys hyvinvointialalla
+Innovaatio- ja muutosjohtaminen
+Digitaaliset toiminnot hyvinvointialalla
+Data asiakaslähtöisten hyvinvointipalvelujen kehittämisessä
+Datan rakentuminen digitaalisissa palveluissa
+Tutkimus- ja kehittämismenetelmät
+Työelämälähtöinen teknologiaprojekti
+Tiedolla johtaminen hyvinvointialalla
+Asiakaslähtöinen hyvinvointiteknologia
+
+---osaaminen---
+Tekniset taidot
+Uranus, Pegasos
+Photoshop, Indesign, Canva
+Python
+R, Dart
+Power BI, Qlik, Tableau
+HTML, CSS
+
+Pehmeät taidot
+Kommunikointi
+Ongelmanratkaisu
+Tunneäly
+Kiireensieto
+Tarkkuus
+
+---Työkokemus----
+
+Osastonsihteeri Tays Sydänsairaala 2020-2023
+Osastonsihteerin työt (sanelunpurku, ajanvaraus sekä potilastietojen siirtäminen hoitohenkilökunnan ja lääkärien työn sujuvoittamiseksi).
+
+Työharjoittelija Istekki Oy, ohjelmistorobotiikka 1-5/2022
+Työharjoittelu oli osa Experts in Medical Computing -täydennyskoulutusta. 
+Perehtyminen automatisoitujen tehtävien tunnistamiseen ja tarpeen kuvaamiseen sekä robotin prosessin määrittelyyn.
+
+Sairaanhoitaja Tays Sydänsairaala / PSHP / Tampereen kaupunki 2009-2020
+Sairaanhoitajan työt kardiologisella vuodeosastolla (sydänleikattujen jatkoseuranta, rytmihäiriöpotilaat, sydämen vajaatoimintapotilaiden hoito). Sairaanhoitajan työ tarkkailussa (akuutit hemodynamiikan häiriöt, elektiiviset lääkeinfuusiot ja sähköiset kardioversiot).
+Sydänhoitajan vastaanotto ja sydänpotilaiden ohjaus.
+
+Sairaanhoitajan sijaisuudet Koukkuniemen vanhainkoti / Hatanpän sairaala 2007-2009
+Sairaanhoitajan sijaisuuksia Koukkuniemen vanhainkodissa, Hatanpään puistosairaalassa psykogeriatrisilla osastoilla ja Hatanpään sairaalan sisätautiosastolla.
+
+Keikkatöinä ulkoasun toteutusta 2002-2007
+Vapaaehtoistyönä järjestöille
+Graafista suunnittelua: julisteita, lentolehtisiä, lehtitaittoa, www-sivujen ulkoasun suunnittelua ja kuvankäsittelyä. 
