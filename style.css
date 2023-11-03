@@ -1,7 +1,7 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('img/maisema.jpg');
+    background: url('img/maisema2.jpg');
     background-size:cover;
     position:relative;
 }
@@ -18,5 +18,50 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(33, 80, 23);
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* opinnot section css */
+.servicesText.card {
+    height: 100%;
+    cursor: arrow;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* tutkinnot section css */
+.services2Text.card {
+    height: 100%;
+    cursor: arrow;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.services2Text:hover {
+    border: 1px solid #008000;
 }
