@@ -1,4 +1,3 @@
-index
 kuka
 opinnot
 osaaminen

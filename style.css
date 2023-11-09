@@ -9,6 +9,11 @@ body {
     background-color: black;
 }
 
+.container a {
+    font-family: 'Nunito';
+    font-size: medium;
+    font-weight: bolder;
+}
 /* hero background image */
 .bgimage {
     height:100vh;
@@ -19,6 +24,7 @@ body {
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    font-weight: bolder;
     
 }
 .hero_desc {
@@ -31,7 +37,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-family:'Nunito';    
+    font-family:'Nunito';
+    font-weight: bolder;   
 }
 
 /* spacing on all sections */
@@ -57,6 +64,11 @@ body {
     height: 100%;
     cursor: arrow;
   }
+
+.container h1 {
+    font-family: 'Nunito';
+    font-weight: bold;
+}
 .servicesIcon {
     font-size: 36px;
     text-align: center;
@@ -73,9 +85,18 @@ body {
     border: 5px solid #06659f;
 }
 
+.accordion-item {
+    font-family: 'Nunito';
+}
 
+.accordion-item h1{
+    font-family: 'Nunito';
+    font-weight: bold;
+}
 /*työkokemus section*/
-
+.list-group {
+    font-family: 'Nunito';
+}
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
@@ -89,6 +110,6 @@ body {
 }
 /* footer styling */
 #footer {
-    background-color: #808080;
+    background-color: rgb(40, 40, 41);
     text-align: center;
 }
