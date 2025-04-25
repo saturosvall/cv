@@ -6,12 +6,15 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&family=Nunito:wght@200&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&family=Nunito:wght@200&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <!-- linking css file -->
-  <link rel="stylesheet" href="style.css">
   <!-- bootstrap CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css"> 
+  <!-- Tämä tulee Bootstrapin jälkeen -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
@@ -22,7 +25,7 @@
   <!-- navigointipalkki -->
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
     <div class="container">
-      <a class="navbar-brand" href="#">Satu Rosvall</a>
+      <a class="navbar-brand" href="#">Satu Rosvall | valkohilkkahakkeri</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,7 +33,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#kuka">KUKA JA MITÄ</a>
+            <a class="nav-link" href="#kuka">PROFIILI</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#opinnot">OPINNOT</a>
@@ -49,87 +52,121 @@
 
   <!-- pääbanneri -->
   <section class="bgimage" id="home">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-          <h2 class="hero_title">Satu Rosvall</h2>
-          <p class="hero_desc">Soten kokenut IT-opiskelija</p>
+          <!--
+          <h2 class="hero_title"><span class="hero_signature">Hyppy sotesta IT-alalle. </span><br>
+            Kyberin teko ikinä.<br>
+            <span class="hero_signature"></span>
+          </h2>
+          -->
         </div>
       </div>
     </div>
   </section>
 
-<!-- KUKA OLEN -->
-<section id="kuka">
-  <div class="container mt-3">
-      <h1 class="text-center">Kuka ja mitä</h1>
+  <!-- pääbanneri WANHA VERSIO 
+    <section class="bgimage" id="home">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+            
+            <h1 class="hero_title">Satu Rosvall</h1>
+            <p class="hero_desc">Matka sotesta kyb3riin - Haaveena olla valkohilkkahakkeri</p>
+            
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <!-- KUKA OLEN -->
+  <section id="kuka">
+    <div class="container bg-dark mt-3">
+      <h1 class="text-center text-white" style="padding-top: 20px;">Profiili</h1>
       <div class="row">
-          <div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                  <img class="card-img-top" src="img/satu3.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">Satu Rosvall</h4>
-                      <p class="card-text">
-                        Olen vuonna 2010 valmistunut ensihoitajaksi ja työskennellyt
-                        kardiologisilla osastoilla erikoissairaanhoidossa yli 10 vuoden ajan. Vuonna 2021 aloin opiskella työni
-                        ohessa tavoitteenani päästä IT-alan töihin. Pitkä työkokemus sairaalamaailmasta on opettanut kiireensietoa, vuorovaikutustaitoa, tarkkuutta ja
-                        ongelmanratkaisua. Näitä ominaisuuksiani olisi hienoa päästä käyttämään myös IT-puolella. Ennen valmistumista (5/25) toivoisin pääseväni työharjoitteluun tai osa-aikatyöhön (esimerkiksi helpdesk).</p>
-                      <div class="text-center">
-                          <a href="#tyokokemus" class="btn btn-outline-dark">Lue lisää työhistoriastani</a>
-                      </div>
-                  </div>
+        <div class="col-lg-4 mt-4">
+          <div class="card portfolioContent">
+            <img class="card-img-top" src="img/satu3.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Satu Rosvall</h4>
+              <p class="card-text">
+                Olen vuonna 2010 valmistunut ensihoitajaksi ja työskennellyt
+                kardiologisilla osastoilla erikoissairaanhoidossa yli 10 vuoden ajan. Pitkä työkokemus
+                sairaalamaailmasta on opettanut mm. kiireensietoa, vuorovaikutustaitoa, tarkkuutta ja
+                ongelmanratkaisua. Näiden oppien sekä IT-opintojen siivittämänä teen alanvaihtoa
+                terveydenhuollosta tietotekniikan pariin.
+              </p>
+              <p class="card-text">
+                Kiinnostukseni kyberturvallisuuteen on syttynyt opintojeni myötä, ja ymmärrän, että paras kasvualusta
+                kyberturvallisuusuraan tulee perustyön kautta, kuten helpdesk-rooleissa. Tavoitteenani on kehittää
+                osaamistani edelleen ja ennen valmistumista (5/25) toivoisin pääseväni työharjoitteluun tai
+                osa-aikatyöhön, jotta voin hankkia käytännön kokemusta ja luoda vankan perustan tulevalle uralleni.
+              </p>
+              <div class="text-center">
+                <a href="#tyokokemus" class="btn btn-outline-dark">Lue lisää työhistoriastani</a>
               </div>
+            </div>
           </div>
+        </div>
 
-          <div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                  <img class="card-img-top" src="img/sote.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">Sotesta koodiviidakkoon</h4>
-                      <p class="card-text">          
-                        IT-ala näyttäytyy minulle mahdollisuuksia täynnä olevana metsänä,
-                        jonka kaikki polut ovat avoinna. Opiskelu- ja työhistoriani toimii eräänlaisena kompassina: Ensimmäinen
-                        ammattini painoviestintätekniikasta osoittaa sinne, missä visuaalisuudella on painoarvoa.
-                        Sairaanhoitajana tunnen sotemaailman: työskentely elämän ja kuoleman painekattilassa on opettanut rauhalliseen, mutta systemaattiseen työotteeseen.
-                        Hyvinvointianalyytikon opinnot avasivat taas mielenkiinnon datan kanssa työskentelyyn. Tieto- ja viestintätekniikan perustutkinto tarjoaa konkreettista oppia tähän kaikkeen.</p>
-                        
-                      <div class="text-center">
-                          <a href="#opinnot" class="btn btn-outline-dark">Lue lisää opinnoistani</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
+        <div class="col-lg-4 mt-4">
+          <div class="card portfolioContent">
+            <img class="card-img-top" src="img/sote.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Sotesta koodiviidakkoon</h4>
+              <p class="card-text">
+                <p>
+                  IT-alalla toivon voivani hyödyntää kaikkia uramatkallani tarttuneita taitoja ja kokemuksia, ja yhdistää ne tulevaisuuden haasteisiin. <br>
+                  <br>
+                  <strong>Graafisen alan</strong> tutkintoni on kehittänyt visuaalisia kykyjäni ja luovuutta.<br>
+                  <strong>Sairaanhoitajana</strong> olen oppinut työskentelemään paineen alla ja hallitsemaan haastavia tilanteita, mikä on opettanut minulle rauhallisen ja systemaattisen työotteen.<br>
+                  <strong>Hyvinvointianalyytikon</strong> opinnot ovat herättäneet kiinnostukseni datan analysoimiseen ja sen hyödyntämiseen päätöksenteossa.<br>
+                  <strong>Tieto- ja viestintätekniikan</strong> perustutkinto tarjoaa minulle käytännön taitoja ja tietoa, joita tarvitsen kehittyäkseni kyberturvallisuuden kentällä.<br>
+              </p>
+              
 
-          <div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                  <img class="card-img-top" src="img/hardsoft.jpg" alt="Card image" style="width:100%">
-                  <div class="card-body">
-                      <h4 class="card-title">"Hard & soft skills"</h4>
-                      <p class="card-text"><ul>
-                          <li>Sote-järjestelmät: Uranus, Pegasos, Oberon, Kardio</li>
-                          <li>Graafiset: Photoshop, InDesign, Canva</li>
-                          <li>Ohjelmointi: Python, R, Dart</li>
-                          <li>Data: Power BI, Excel</li>
-                          <li>Verkkojulkaisu: HTML, CSS, Bootstrap, JS</li>
-                          <li>Järjestelmätuki: Palvelihallintajärjestelmän asennus ja konfigurointi</li>
-                          <li>Kyberturva: OPINNOT KÄYNNISSÄ...</li></ul>
-                          </li>
-                        <ul>
-                          <li>Kommunikointi</li>
-                          <li>Ongelmanratkaisu</li>
-                          <li>Tunneäly</li>
-                          <li>Kiireensieto</li>
-                          <li>Tarkkuus</li>
-                      </ul></p>
-                      <div class="text-center">
-                          <a href="#suoritukset" class="btn btn-outline-dark btn-sm">Lue lisää suorituksistani</a>
-                      </div>
-                  </div>
+              <div class="text-center">
+                <a href="#opinnot" class="btn btn-outline-dark">Lue lisää opinnoistani</a>
               </div>
+            </div>
           </div>
+        </div>
+
+        <div class="col-lg-4 mt-4">
+          <div class="card portfolioContent">
+            <img class="card-img-top" src="img/hardsoft.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">"Hard & soft skills"</h4>
+              <p class="card-text">
+              <ul>
+                <li>Sote-järjestelmät: Uranus, Pegasos, Oberon, Kardio</li>
+                <li>Graafiset: Photoshop, InDesign, Canva</li>
+                <li>Ohjelmointi: Python, R, Dart</li>
+                <li>Data: Power BI, Excel</li>
+                <li>Verkkojulkaisu: HTML, CSS, Bootstrap, JS</li>
+                <li>Järjestelmätuki: Palvelihallintajärjestelmän asennus ja konfigurointi, AD-hallinta</li>
+                <li>Virtualisointi: VMware, Hyper-V, VirtualBox</li>
+                <li>Kyberturva: Wireshark, Burp Suite, Metasploit, Nmap</li>
+              </ul>
+              </li>
+              <ul>
+                <li>Kommunikointi</li>
+                <li>Ongelmanratkaisu</li>
+                <li>Tunneäly</li>
+                <li>Kiireensieto</li>
+                <li>Tarkkuus</li>
+              </ul>
+              </p>
+              <div class="text-center">
+                <a href="#suoritukset" class="btn btn-outline-dark btn-sm">Lue lisää suorituksistani</a>
+              </div>
+            </div>
           </div>
-  </div>
-</section>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- opinnot -->
 
@@ -144,8 +181,10 @@
               <h4 class="card-title mt-3">Tieto- ja viestintätekniikan perustutkinto</h4>
               <h6 class="card-title mt-3">Etelä-Savon ammattiopisto</h6>
               <p class="card-text mt-3">
-                Osaamispisteitä suoritettuna 142/180 osp. Opinnot aloitettu maaliskuussa 2023. Suoritettuina ovat tieto- ja viestintätekniikan perustehtävät, ohjelmointi ja järjestelmätuessa toimiminen.
-                Suoritettavana ovat vielä kokonaisuudet kyberturvallisuuden ylläpitäminen ja teknisessä tuessa toimiminen. Näillä opinnoilla tutkintonimike on IT-suunnittelija.              <p>
+                Osaamispisteitä suoritettuna 172/180 osp. Opinnot aloitettu maaliskuussa 2023. Suoritettuina ovat tieto-
+                ja viestintätekniikan perustehtävät, ohjelmointi, järjestelmätuessa toimiminen ja kyberturvallisuuden ylläpitäminen.
+                Suoritettavana on enää kokonaisuus teknisessä tuessa toimiminen. Näillä opinnoilla tutkintonimike on IT-suunnittelija.
+              <p>
                 <a href="#suoritukset" type="button" class="btn btn-outline-dark btn-sm">Lue lisää suorituksista</a>
               </p>
             </div>
@@ -158,11 +197,14 @@
               <h4 class="card-title mt-3">Hyvinvointiteknologia<br>(YAMK)</h4>
               <h6 class="card-title mt-3">Satakunnan ammattikorkeakoulu</h6>
               <p class="card-text mt-3">
-                Opintopisteitä suoritettuna 60/90 op. Opinnot aloitettu syksyllä 2022. Opinnot auttavat hahmottamaan monialaista hyvinvointiteknologiaa,
-                kehittävät digitaalisia tietoja ja taitoja kuten myös ymmärrystä datan laajemmasta käytöstä ja tulkinnasta. 30 opintopisteen laajuinen opinnäytetyö on kesken. Aiheena on terveydenhuollon kyberturvallisuus. Tutkinnon suorittamisella mahdollisuus saada hyvinvointianalyytikon pätevyys.
+                Opintopisteitä suoritettuna 60/90 op. Opinnot aloitettu syksyllä 2022. Opinnot auttavat hahmottamaan
+                monialaista hyvinvointiteknologiaa,
+                kehittävät digitaalisia tietoja ja taitoja kuten myös ymmärrystä datan laajemmasta käytöstä ja
+                tulkinnasta. Keväällä 2025 valmistuu 30 opintopisteen laajuinen opinnäytetyö, joka on integroiva kirjallisuuskatsaus terveydenhuollon
+                kyberturvallisuuden parantamisesta. Tutkinnon suorittamisella mahdollisuus saada hyvinvointianalyytikon pätevyys.
               </p>
-                <p>
-                  <a href="#suoritukset" type="button" class="btn btn-outline-dark btn-sm">Lue lisää suorituksista</a>
+              <p>
+                <a href="#suoritukset" type="button" class="btn btn-outline-dark btn-sm">Lue lisää suorituksista</a>
               </p>
             </div>
           </div>
@@ -175,12 +217,14 @@
               <h4 class="card-title mt-3">Experts in Medical Computing<br>EMC-täydennyskoulutus</h4>
               <h6 class="card-title mt-3">Itä-Suomen yliopisto / Savonia ammattikorkeakoulu</h6>
               <p class="card-text mt-3">
-                Ehdin suorittaa 48/60 opintopistettä ennen kuin sain tiedon pääsystä YAMK-opintoihin. EMC-täydennyskoulutus järjestettiin 2020-2023 lisäämään tietotaitoa lääketieteellisen
+                Ehdin suorittaa 48/60 opintopistettä ennen kuin sain tiedon pääsystä YAMK-opintoihin.
+                EMC-täydennyskoulutus järjestettiin 2020-2023 lisäämään tietotaitoa lääketieteellisen
                 tietojenkäsittelytieteen kolmelta osa-alueelta: tietojenkäsittelytieteen, liiketalouden sekä
-                terveydenhuollon aloilta. EMC-projektin tarkoitus on tarjota täydennyskoulutusta ja kasvattaa alan ammattilaisten määrää.
+                terveydenhuollon aloilta. EMC-projektin tarkoitus on tarjota täydennyskoulutusta ja kasvattaa alan
+                ammattilaisten määrää.
               </p>
-              
-                <a href="#suoritukset" type="button" class="btn btn-outline-dark btn-sm">Lue lisää suorituksista</a>
+
+              <a href="#suoritukset" type="button" class="btn btn-outline-dark btn-sm">Lue lisää suorituksista</a>
               </p>
             </div>
           </div>
@@ -204,7 +248,8 @@
               <i class='fas servicesIcon bi-printer-fill fa-3x'></i>
               <h4 class="card-title mt-3">Painoviestinnän perustutkinto / YO</h4>
               <h6 class="card-title mt-3">Tampereen ammattiopisto</h6>
-              <p class="card-text mt-3">Ulkoasun toteutuksen koulutusohjelma ja ylioppilastutkinto, valmistumisvuosi 2003.
+              <p class="card-text mt-3">Ulkoasun toteutuksen koulutusohjelma ja ylioppilastutkinto, valmistumisvuosi
+                2003.
               </p>
             </div>
           </div>
@@ -215,10 +260,12 @@
             <div class="card-body">
               <i class='fas servicesIcon bi-book fa-3x'></i>
               <h4 class="card-title mt-3">Avoimet opinnot</h4>
-              <p class="card-text mt-3">Opiskelen pääopintojen ohella mm. FITech-verkkoyliopiston ja CampusOnlinen kautta täydentäviä opintoja.
+              <p class="card-text mt-3">Opiskelen pääopintojen ohella mm. FITech-verkkoyliopiston ja CampusOnlinen
+                kautta täydentäviä opintoja.
               </p>
               <p>
-                <a href="#suoritukset" type="button" class="btn btn-outline-dark btn-sm">Lue lisää avoimien opintojen suorituksista</a>
+                <a href="#suoritukset" type="button" class="btn btn-outline-dark btn-sm">Lue lisää avoimien opintojen
+                  suorituksista</a>
               </p>
             </div>
           </div>
@@ -255,6 +302,10 @@
             <br>Järjestelmän hallinnointi
             <br>Järjestelmätason muutoksien tekeminen
             <br>Päätelaitteen asennuksen automatisointi
+            <br><strong>Kyberturvallisuuden ylläpitäminen (30 osp)</strong>
+            <br>Kyberuhkien hallinta- ja suojautumiskeinojen ylläpitäminen
+            <br>Kyberturvariskien hallitseminen
+            <br>Kyberturvallisuusratkaisujen edistäminen
             <br><strong>Yhteiset tutkinnon osat (YTO) (23 osp)</strong>
           </div>
         </div>
@@ -312,7 +363,8 @@
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
           data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            11/23 Kajaanin amk: Elements of  Cloud and Cybersecurity 2 op
+            1/24 -> Hakatemian kautta kyberturvaopintoja
+            <br>11/23 Kajaanin amk: Elements of Cloud and Cybersecurity 2 op
             <br>4/2023 Savonia amk: Big Datan perusteet sekä visualisointi Excelillä ja Power BI:llä 5 op
             <br>3/2023 FITech 101: Johdatus ohjelmointiin 2op
             <br>2/2022 Karelia amk: Ohjelmistorobotiikan mahdollisuudet 2 op
@@ -323,7 +375,7 @@
   </section>
 
   <!-- Työkokemus-->
-  
+
   <section id="tyokokemus">
     <div class="list-group container bg-dark p-3">
       <h1 class="text-center text-white">Työkokemus</h1>
@@ -334,7 +386,7 @@
         </div>
         <p class="mb-1">Osastonsihteerin työt (sanelunpurku, ajanvaraus sekä potilastietojen siirtäminen
           hoitohenkilökunnan ja lääkärien työn sujuvoittamiseksi).</p>
-        </div>
+      </div>
       <div class="list-group-item list-group-item-action">
         <div class="d-flex w-100 justify-content-between">
           <h5 class="mb-1">Työharjoittelija | Istekki Oy, ohjelmistorobotiikka</h5>
@@ -343,7 +395,7 @@
         <p class="mb-1">Työharjoittelu oli osa Experts in Medical Computing -täydennyskoulutusta.
           Perehtyminen automatisoitujen tehtävien tunnistamiseen ja tarpeen kuvaamiseen sekä robotin prosessin
           määrittelyyn.</p>
-        </div>
+      </div>
       <div class="list-group-item list-group-item-action">
         <div class="d-flex w-100 justify-content-between">
           <h5 class="mb-1">Sairaanhoitaja | Tays Sydänsairaala / PSHP / Tampereen kaupunki</h5>
@@ -353,7 +405,7 @@
           rytmihäiriöpotilaat, sydämen vajaatoimintapotilaiden hoito). Sairaanhoitajan työ tarkkailussa (akuutit
           hemodynamiikan häiriöt, elektiiviset lääkeinfuusiot ja sähköiset kardioversiot).
           Sydänhoitajan vastaanotto ja sydänpotilaiden ohjaus.</p>
-        </div>
+      </div>
       <div class="list-group-item list-group-item-action action" aria-current="true">
         <div class="d-flex w-100 justify-content-between">
           <h5 class="mb-1">Sairaanhoitajan sijaisuudet | Koukkuniemen vanhainkoti / Hatanpään sairaala</h5>
@@ -361,13 +413,14 @@
         </div>
         <p class="mb-1">Sairaanhoitajan sijaisuuksia Koukkuniemen vanhainkodissa, Hatanpään puistosairaalassa
           psykogeriatrisilla osastoilla ja Hatanpään sairaalan sisätautiosastolla.</p>
-        </div>
+      </div>
       <div class="list-group-item list-group-item-action">
         <div class="d-flex w-100 justify-content-between">
           <h5 class="mb-1">Keikkatöinä ulkoasun toteutusta</h5>
           <small class="text-body-secondary">2002-2007</small>
         </div>
-        <p class="mb-1">Vapaaehtoistyönä järjestöille graafista suunnittelua: julisteita, lentolehtisiä, lehtitaittoa, www-sivujen ulkoasun suunnittelua ja kuvankäsittelyä. </p>
+        <p class="mb-1">Vapaaehtoistyönä järjestöille graafista suunnittelua: julisteita, lentolehtisiä, lehtitaittoa,
+          www-sivujen ulkoasun suunnittelua ja kuvankäsittelyä. </p>
       </div>
     </div>
   </section>
